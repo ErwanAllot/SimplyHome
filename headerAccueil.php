@@ -1,9 +1,3 @@
-<?php
-/* récupération de l'adresse de page passée dans URL*/
-$path='https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$current=basename($path);
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -88,9 +82,9 @@ $current=basename($path);
 
                 <ul id="navigation" class="menu">
                     <li><a href="index.php"> Accueil</a></li>
-                    <li><a href="apropos.php"> A propos</a></li>
-                    <li><a href="nosMaisons.php"> Nos Maisons</a></li>
-                    <li><a href="contact.php"> Contact</a></li>
+                    <li><a href="Apropos.php"> A propos</a></li>
+                    <li><a href="NosMaisons.php"> Nos Maisons</a></li>
+                    <li><a href="Contact.php"> Contact</a></li>
                 </ul>
 
 
@@ -107,10 +101,10 @@ $current=basename($path);
                         <span></span>
                         <ul id="menu">
 
-                            <li><a href="index.php"> Accueil</a></li>
-                            <li><a href="apropos.php"> A propos</a></li>
-                            <li><a href="nosMaisons.php"> Nos Maisons</a></li>
-                            <li><a href="contact.php"> Contact</a></li>
+                        <li><a href="index.php"> Accueil</a></li>
+                    <li><a href="Apropos.php"> A propos</a></li>
+                    <li><a href="NosMaisons.php"> Nos Maisons</a></li>
+                    <li><a href="Contact.php"> Contact</a></li>
                         </ul>
                     </div>
                 </nav>
