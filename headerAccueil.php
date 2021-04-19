@@ -1,8 +1,4 @@
-<?php
-/* récupération de l'adresse de page passée dans URL*/
-$path='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$current=basename($path);
-?>
+
 
 <!DOCTYPE html>
 <html>
