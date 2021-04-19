@@ -4,7 +4,6 @@ $path='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $current=basename($path);
 ?>
 
-
 <!DOCTYPE html>
 <html>
 
@@ -19,10 +18,7 @@ $current=basename($path);
 <!-- _________________Bandeau____________________________________-->
 
 <body>
-    <div class="contenaire">
-
-
-
+    <div class="contenaire ">
         <header class="bandeau">
 
             <div class="logo">
