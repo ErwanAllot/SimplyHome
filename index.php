@@ -1,9 +1,6 @@
 
 <?php include('headerAccueil.php'); ?>
 
-<!--  -->
-
-
 
 <!-- _________________Bienvenue Chez Simply Home____________________________________-->
 
