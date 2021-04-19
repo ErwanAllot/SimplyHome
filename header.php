@@ -31,10 +31,10 @@ $current=basename($path);
 
             <ul class="menu">
 
-                <li><a href="accueil.php" class="en-cours"> Accueil</a></li>
-                <li><a href="apropos.php"> A propos</a></li>
-                <li><a href="nosMaisons.php"> Nos Maisons</a></li>
-                <li><a href="contact.php"> Contact</a></li>
+                <li><a href="index.php" class="en-cours"> Accueil</a></li>
+                <li><a href="Apropos.php"> A propos</a></li>
+                <li><a href="NosMaisons.php"> Nos Maisons</a></li>
+                <li><a href="Contact.php"> Contact</a></li>
             </ul>
 
             <nav role="navigation">
