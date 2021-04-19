@@ -1,9 +1,13 @@
-<?php  $nav_en_cours = 'accueil'; ?>
-<?php include('headerAccueil.php'); ?>
+<!DOCTYPE html>
+<html>
 
-<!--  -->
-
-
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Bienvenue chez Simply Home</title>
+</head>
+<body>
 
 <!-- _________________Bienvenue Chez Simply Home____________________________________-->
 
@@ -135,3 +139,6 @@ premier grâce à la feuille de style css !
 
 
 <?php include('footer.php'); ?>
+
+</body>
+</html>
