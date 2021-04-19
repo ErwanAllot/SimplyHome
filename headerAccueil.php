@@ -1,6 +1,6 @@
 <?php
 /* récupération de l'adresse de page passée dans URL*/
-$path='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+$path='https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $current=basename($path);
 ?>
 
@@ -87,28 +87,13 @@ $current=basename($path);
 
 
                 <ul id="navigation" class="menu">
-                    <li><a href="accueil.php"> Accueil</a></li>
+                    <li><a href="index.php"> Accueil</a></li>
                     <li><a href="apropos.php"> A propos</a></li>
                     <li><a href="nosMaisons.php"> Nos Maisons</a></li>
                     <li><a href="contact.php"> Contact</a></li>
                 </ul>
 
 
-                <!-- <ul id="navigation" class="menu">
-                    <li class="<?php if ($nav_en_cours == 'accueil') {echo 'en-cours';} ?>"><a
-                            href="accueil.php">Accueil</a></li>
-                    <li class="<?php if ($nav_en_cours == 'apropos') {echo 'en-cours';} ?>"><a href="Apropos.php">A
-                            propos</a></li>
-                    <li class="<?php if ($nav_en_cours == 'NosMaisons') {echo 'en-cours';} ?>"><a
-                            href="NosMaisons.php">Nos Maisons</a></li>
-                    <li class="<?php if ($nav_en_cours == 'contact') {echo 'en-cours';} ?>"><a
-                            href="Contact.php">Contact</a></li>
-                </ul> -->
-
-
-                <!-- <li><?php if ($nav_en_cours == 'apropos') {echo ' class="en-cours"';} ?><a href="apropos.php">A propos</a></li>
-                    <li><?php if ($nav_en_cours == 'nosMaisons') {echo ' class="en-cours"';} ?><a href="nosMaisons.php">Nos Maisons</a></li>
-                    <li><?php if ($nav_en_cours == 'contact') {echo ' class="en-cours"';} ?><a href="contact.php">Contact</a></li> -->
 
 
 
@@ -122,7 +107,7 @@ $current=basename($path);
                         <span></span>
                         <ul id="menu">
 
-                            <li><a href="accueil.php"> Accueil</a></li>
+                            <li><a href="index.php"> Accueil</a></li>
                             <li><a href="apropos.php"> A propos</a></li>
                             <li><a href="nosMaisons.php"> Nos Maisons</a></li>
                             <li><a href="contact.php"> Contact</a></li>
